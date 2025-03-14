@@ -10,4 +10,7 @@ class UsuarioController extends Controller
         return view('usuario.cadastrar');
     }
 
+    public function salvar(Request $request){
+        dd($request);
+    }
 }
