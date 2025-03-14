@@ -7,7 +7,8 @@
     </head>
 
     <body>
-        <h1>Olá mundo</h1>
+        <h1>Projeto para estudos!</h1>
         
+        <a href="{{ route('usuario.cadastrar') }}">Cadastrar</a>
     </body>
 </html>
