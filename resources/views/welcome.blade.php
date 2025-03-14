@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CRUD - Tarefas</title>
+        <title>Estudos sobre laravel</title>
     </head>
 
     <body>
