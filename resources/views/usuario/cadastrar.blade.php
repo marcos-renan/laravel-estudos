@@ -7,6 +7,19 @@
 </head>
 <body>
     <h1>Cadastrar Usuário</h1>
+
+
+    @if (session('sucesso'))
+    <p style="color: #086">
+        {{ session('sucesso') }}
+    </p>        
+    @endif
+    @if (session('erro'))
+    <p style="color: #f00">
+        {{ session('erro') }}
+    </p>        
+    @endif
+
     <form action="{{ route('usuario.salvar') }}" method="POST">
         @csrf
 
